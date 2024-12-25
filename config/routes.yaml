@@ -3,3 +3,17 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+todolist_header:
+    path: /to_do_list/twig_pages/base_pages/header::header
+    controller: App\Controller\ToDoListController::header
+todolist_footer:
+    path: /to_do_list/twig_pages/base_pages/footer::footer
+    controller: App\Controller\ToDoListController::footer
+
+#todolist_main:
+#    path: /to_do_list/twig_pages/main
+#    controller: App\Controller\ToDoListController::main
+#
+#todolist_profile:
+#    path: /to_do_list/twig_pages/profile/profile::profile
